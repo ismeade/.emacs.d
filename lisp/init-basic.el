@@ -4,7 +4,6 @@
 
 ;; 关闭提示音
 (setq ring-bell-function 'ignore)
-;;(setq split-width-threshold nil)
 ;; 关闭welcome
 (setq inhibit-splash-screen t)
 ;; 关闭自动备份
@@ -31,32 +30,10 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 
-;; company-mode
-(global-company-mode t)
-
 ;; 配对括号
 (show-paren-mode t)
 (setq show-paren-style 'parenthesis)
 
-;; org语法高亮
-(require 'org)
-(setq org-src-fontify-natively t)
-
-;; 默认开启vi模式
-(evil-mode t)
-
-;; 光标移动到新建窗口中
-(require 'popwin)
-(popwin-mode 1)
-
 ;; 启动最大化
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-
-(put 'dired-find-alternate-file 'disabled nil)
-
-;; 主动加载 Dired Mode
-;; 延迟加载
-(with-eval-after-load 'dired
-    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
-
 (provide 'init-basic)

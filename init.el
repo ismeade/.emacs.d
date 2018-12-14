@@ -13,6 +13,11 @@
 (require 'init-recentf)
 (require 'init-web)
 (require 'init-ivy)
+(require 'init-company-mode)
+(require 'init-dired)
+(require 'init-evil-mode)
+(require 'init-org-mode)
+(require 'init-popwin)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)
