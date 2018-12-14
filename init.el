@@ -12,6 +12,7 @@
 (require 'init-auto-save)
 (require 'init-recentf)
 (require 'init-web)
+(require 'init-ivy)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
 (load-file custom-file)
