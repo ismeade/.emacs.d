@@ -166,10 +166,9 @@ avoid delete current indent space when you programming."
   (add-hook 'before-save-hook 'font-lock-flush)
   )
 
-(provide 'auto-save)
-
 ;;; auto-save.el ends here
-
 (auto-save-enable)
 (setq auto-save-silent t)
 (setq auto-save-delete-trailing-whitespace t)
+
+(provide 'init-auto-save)
