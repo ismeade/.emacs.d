@@ -18,7 +18,6 @@ thumbs/
 \#*\#
 ac-comphist*
 auto-save-list/*
-custom.el
 emacs-config.el
 org-clock-save.el
 /ramen.ogg
