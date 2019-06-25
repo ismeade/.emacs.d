@@ -11,7 +11,12 @@
 ;; 关闭光标闪烁
 (blink-cursor-mode -1)
 ;; 黑色主题
-(load-theme 'darcula t)
+;;(load-theme 'darcula t)
+;;(load-theme 'tango-dark t)
+(load-theme 'monokai t)
+;;高亮当前行
+(require 'hl-line)
+(global-hl-line-mode t)
 ;; 关闭工具栏
 (tool-bar-mode -1)
 ;; 关闭菜单栏
