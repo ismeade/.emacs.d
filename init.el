@@ -17,6 +17,8 @@
 (require 'init-dired)
 (require 'init-evil-mode)
 (require 'init-org-mode)
+(require 'init-fci-mode)
+(require 'init-font)
 (require 'init-popwin)
 
 (setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))

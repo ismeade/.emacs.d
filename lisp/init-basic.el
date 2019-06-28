@@ -12,7 +12,6 @@
 (blink-cursor-mode -1)
 ;; 黑色主题
 ;;(load-theme 'darcula t)
-;;(load-theme 'tango-dark t)
 (load-theme 'monokai t)
 ;;高亮当前行
 (require 'hl-line)
@@ -41,4 +40,5 @@
 
 ;; 启动最大化
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 (provide 'init-basic)
