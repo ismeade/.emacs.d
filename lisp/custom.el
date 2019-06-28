@@ -46,7 +46,7 @@
  '(org-agenda-files nil)
  '(package-selected-packages
    (quote
-    (cnfonts fill-column-indicator htmlize monokai-theme json-mode markdown-mode ssh counsel ivy swiper smex web-mode popwin js2-mode evil darcula-theme company)))
+    (linum-relative fill-column-indicator htmlize monokai-theme json-mode markdown-mode ssh counsel ivy swiper smex web-mode popwin js2-mode evil darcula-theme company)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(vc-annotate-background nil)

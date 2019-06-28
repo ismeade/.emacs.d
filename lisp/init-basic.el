@@ -27,6 +27,7 @@
 ;; line number
 (global-linum-mode 1)
 (setq linum-format "%d ")
+(linum-relative-mode t)
 
 ;; coding
 (prefer-coding-system 'utf-8)
