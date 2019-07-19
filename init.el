@@ -8,7 +8,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 (require 'init-basic)
-(require 'init-mirrors)
+(require 'init-package)
 (require 'init-auto-save)
 (require 'init-recentf)
 (require 'init-web)

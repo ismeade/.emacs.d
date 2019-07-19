@@ -10,10 +10,9 @@
 (setq make-backup-files nil)
 ;; 关闭光标闪烁
 (blink-cursor-mode -1)
-;; 黑色主题
-;;(load-theme 'darcula t)
-(load-theme 'monokai t)
-;;高亮当前行
+;; 主题
+(load-theme 'zenburn t)
+;; 高亮当前行
 (require 'hl-line)
 (global-hl-line-mode t)
 ;; 关闭工具栏
